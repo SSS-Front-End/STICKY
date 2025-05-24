@@ -127,6 +127,29 @@ header nav {
     line-height: 90%;
 }
 
+.marquee-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee {
+    display: inline-flex;
+    animation: marquee 8s linear infinite;
+}
+
+.marquee span {
+    padding-right: 150px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 /* ABOUT END */
 
 /* HEADER END */
