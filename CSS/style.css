@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --colBg: #383838;
+    --colWh: #fff;
+    --backgLogo: #B7B7B7;
+    --mainBg: #fff;
+    --mainFf: "Oswald", sans-serif;
+    --styleFf: "Inter";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--mainFf);
+    font-style: normal;
+    font-weight: 600;
+    background: var(--mainBg);
+    color: var(--colBg);
+}
+
+body {
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER START */
+
+header {
+    background: #b4b4b4;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+
+.nav__link {
+    color: var(--colBg);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav__link_m {
+    margin-left: 50px;
+}
+
+/* ABOUT START */
+
+.about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about__img {
+    margin-left: -300px;
+    max-width: 840px;
+    width: 100%;
+}
+
+.about__content__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--colBg);
+    margin-bottom: 40px;
+}
+
+.about__content__desc {
+    font-family: var(--styleFf);
+    font-style: italic;
+    font-weight: 400;
+    max-width: 500px;
+    width: 100%;
+    font-size: 26px;
+    line-height: 170%;
+
+}
+
+.about__content__desc_ff {
+    font-family: var(--mainFf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.about__content {
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.about__text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    background: var(--colBg);
+    color: var(--colWh);
+    padding: 15px 0;
+    line-height: 90%;
+}
+
+/* ABOUT END */
+
+/* HEADER END */
+
+/* MAIN START */
+
+.preview__title {
+    font-size: 50px;
+    color: var(--colBg);
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.preview__video {
+    display: block;
+    width: 65%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.yandex_music__title {
+    font-size: 50px;
+    color: var(--colBg);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 100%;
+}
+
+.card__card {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+
+.footer {
+    background: var(--colBg);
+    margin-top: 150px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer__menu_img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.footer__menu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer__menu_link {
+    font-family: var(--mainFf);
+    font-weight: 600;
+    color: var(--backgLogo);
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+/* FOOTER END */
+

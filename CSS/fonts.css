@@ -1,0 +1,22 @@
+@import url(./style.css);
+
+@font-face {
+    font-family: "Oswald";
+    src: url('../Fonts/Oswald-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url('../Fonts/Oswald-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../Fonts/Inter_18pt-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
